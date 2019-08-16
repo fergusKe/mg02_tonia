@@ -1,0 +1,296 @@
+.main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 830px;
+  height: 100%;
+  margin: 0 auto;
+  background: url("../images/index/index-bannermask.png");
+  overflow: hidden; }
+  .main .content {
+    position: absolute;
+    width: 620px;
+    height: 311px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0; }
+    .main .content .list-box {
+      width: 620px;
+      height: 311px;
+      overflow: hidden; }
+    .main .content .list {
+      position: relative;
+      width: 99999px;
+      height: 311px;
+      overflow: hidden;
+      font-size: 0;
+      margin-left: -20px; }
+      .main .content .list li {
+        position: relative;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 20px;
+        background: url("../images/all/all-opacity-list-bg.png"); }
+        .main .content .list li img {
+          width: 100%; }
+        .main .content .list li a {
+          display: block;
+          width: 280px;
+          height: 100%;
+          color: #FFF;
+          padding: 10px; }
+      .main .content .list .date {
+        margin-top: 1px;
+        margin-bottom: 13px;
+        font-size: 11px;
+        color: #ff9329; }
+      .main .content .list .list-title {
+        margin-top: 10px;
+        font-size: 16px; }
+      .main .content .list .list-content {
+        margin-top: 5px;
+        margin-bottom: 24px;
+        color: #a7897c;
+        font-size: 11px; }
+      .main .content .list .list-more {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 3px 5px;
+        font-size: 11px;
+        color: #a7897c;
+        background: rgba(133, 105, 93, 0.2);
+        filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#3285695d,endcolorstr=#3285695d); }
+        .main .content .list .list-more span {
+          position: relative;
+          top: -1px; }
+    .main .content .btn {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0;
+      width: 17px;
+      height: 35px; }
+    .main .content .left {
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+      opacity: 0.6;
+      left: -35px; }
+    .main .content .right {
+      right: -35px; }
+    .main .content.step1 {
+      top: -99999px;
+      width: 750px;
+      height: 434px;
+      padding: 22px;
+      background: rgba(30, 16, 6, 0.5);
+      filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F301606,endcolorstr=#7F301606); }
+      .main .content.step1 .info-top {
+        position: relative;
+        margin-bottom: 14px; }
+      .main .content.step1 .info-title {
+        font-size: 16px;
+        color: #FFF;
+        margin-top: 2px; }
+      .main .content.step1 .info-date {
+        font-size: 11px;
+        color: #ff9329;
+        margin-top: 2px; }
+      .main .content.step1 .info-coupon {
+        font-size: 11px;
+        color: #a7897c;
+        margin-top: 5px; }
+      .main .content.step1 .info-text {
+        color: #a7897c;
+        font-size: 11px;
+        margin-top: 7px;
+        height: 425px;
+        overflow: auto;
+        padding-right: 15px;
+        text-align: justify; }
+      .main .content.step1 .info-link {
+        position: absolute;
+        right: 15px;
+        bottom: 0;
+        font-size: 0; }
+        .main .content.step1 .info-link .download {
+          display: inline-block;
+          width: 102px;
+          height: 24px;
+          background: url("../images/coupon/coupon-btn-download.png"); }
+          .main .content.step1 .info-link .download:hover {
+            background-position: 0 -24px; }
+        .main .content.step1 .info-link .print {
+          display: inline-block;
+          width: 102px;
+          height: 24px;
+          margin-left: 7px;
+          background: url("../images/coupon/coupon-btn-print.png"); }
+          .main .content.step1 .info-link .print:hover {
+            background-position: 0 -24px; }
+        .main .content.step1 .info-link a {
+          display: block;
+          width: 100%;
+          height: 100%; }
+      .main .content.step1 .close-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 3px 5px;
+        font-size: 11px;
+        color: #a7897c;
+        cursor: pointer;
+        background: rgba(133, 105, 93, 0.2);
+        filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#3285695d,endcolorstr=#3285695d); }
+        .main .content.step1 .close-btn span {
+          position: relative;
+          top: -1px; }
+      .main .content.step1 .info-bottom {
+        height: 362px;
+        font-size: 0; }
+        .main .content.step1 .info-bottom img {
+          width: 100%; }
+
+.nav {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  margin-right: 62px;
+  height: 170px;
+  z-index: 9999; }
+  .nav ul {
+    font-size: 0; }
+    .nav ul li {
+      position: relative; }
+      .nav ul li span {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: block;
+        transition: .3s; }
+      .nav ul li .word {
+        width: 120px;
+        height: 15px;
+        background: url("../images/all/all-menu.png"); }
+      .nav ul li .over {
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+        opacity: 0;
+        width: 120px;
+        height: 15px;
+        background: url("../images/all/all-menu.png"); }
+      .nav ul li .dot {
+        width: 10px;
+        height: 10px;
+        border: 1px solid #FFF;
+        border-radius: 50%; }
+      .nav ul li a {
+        display: block;
+        width: 120px;
+        height: 25px; }
+      .nav ul li img {
+        max-width: auto; }
+      .nav ul li.home .word {
+        background-position: 5px -5px;
+        right: 0;
+        left: auto; }
+      .nav ul li.home .over {
+        background-position: -115px -5px; }
+      .nav ul li.brand .word {
+        background-position: 5px -29px;
+        right: 0;
+        left: auto; }
+      .nav ul li.brand .over {
+        background-position: -115px -29px; }
+      .nav ul li.news .word {
+        background-position: 5px -53px; }
+      .nav ul li.news .over {
+        background-position: -115px -53px; }
+      .nav ul li.product .word {
+        background-position: 5px -75px; }
+      .nav ul li.product .over {
+        background-position: -115px -75px; }
+      .nav ul li.catalog .word {
+        background-position: 5px -99px; }
+      .nav ul li.catalog .over {
+        background-position: -115px -99px; }
+      .nav ul li.media .word {
+        background-position: 5px -123px; }
+      .nav ul li.media .over {
+        background-position: -115px -123px; }
+      .nav ul li.store .word {
+        background-position: 5px -147px; }
+      .nav ul li.store .over {
+        background-position: -115px -147px; }
+      .nav ul li:hover .word {
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+        opacity: 0; }
+      .nav ul li:hover .over {
+        filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+        opacity: 1; }
+      .nav ul li:hover .dot {
+        background: #FFF; }
+
+/* Tiny Scrollbar */
+.scrollbar1 .viewport {
+  width: 720px;
+  height: 362px;
+  overflow: hidden;
+  position: relative; }
+.scrollbar1 .overview {
+  list-style: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0;
+  margin: 0; }
+.scrollbar1 .scrollbar {
+  position: relative;
+  left: -1px;
+  width: 1px;
+  float: right;
+  width: 15px; }
+.scrollbar1 .track {
+  background: #473426;
+  height: 100%;
+  width: 1px;
+  position: relative;
+  left: 12px; }
+.scrollbar1 .thumb {
+  background: #9E7B66;
+  height: 20px;
+  width: 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: -5px;
+  margin-top: 5px; }
+.scrollbar1 .thumb .front {
+  position: absolute;
+  top: -5px;
+  background: transparent url(../images/all/all-btn-scroll.png) no-repeat 50% 0%;
+  overflow: hidden;
+  height: 5px;
+  width: 10px; }
+.scrollbar1 .thumb .end {
+  position: absolute;
+  bottom: -5px;
+  background: transparent url(../images/all/all-btn-scroll.png) no-repeat 50% 100%;
+  overflow: hidden;
+  height: 5px;
+  width: 10px; }
+.scrollbar1 .disable {
+  display: none; }
+
+.noSelect {
+  user-select: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none; }
+
+/*# sourceMappingURL=coupon.css.map */

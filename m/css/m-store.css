@@ -1,0 +1,97 @@
+@charset "UTF-8";
+.wrapper-content {
+  position: relative; }
+
+.main {
+  position: relative;
+  overflow: hidden; }
+  .main .search-store {
+    margin-top: -4px;
+    padding-bottom: 27px;
+    font-size: 26px;
+    color: #584d4b;
+    background: #D6CBC9;
+    text-align: center; }
+    .main .search-store p {
+      padding-top: 15px;
+      padding-bottom: 8px;
+      font-weight: bold; }
+    .main .search-store select {
+      width: 300px;
+      height: 50px;
+      font-size: 26px;
+      font-family: '微軟正黑體';
+      border: 3px solid #9A908E;
+      background: #D6CBC9;
+      cursor: pointer;
+      vertical-align: top; }
+      .main .search-store select ~ select {
+        margin-left: 3px; }
+    .main .search-store .search-store-btn {
+      width: 300px;
+      height: 45px;
+      background: #8C675E;
+      margin: 0 auto;
+      line-height: 45px;
+      margin-top: 15px;
+      border-radius: 10px; }
+      .main .search-store .search-store-btn a {
+        color: #FFF; }
+  .main .list-content > ul {
+    font-size: 0; }
+    .main .list-content > ul > li {
+      position: relative;
+      background: #91837F; }
+      .main .list-content > ul > li.active {
+        background: #3B3633; }
+      .main .list-content > ul > li.mylogo img {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto; }
+    .main .list-content > ul .list-item {
+      height: 145px;
+      font-size: 24px;
+      color: #584d4b;
+      border-bottom: 1px solid #FFF;
+      text-align: center;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box; }
+      .main .list-content > ul .list-item .cellPhone {
+        position: absolute;
+        width: 80px;
+        height: 145px;
+        top: 0;
+        right: 0;
+        -moz-transition: 0.5s;
+        -o-transition: 0.5s;
+        -webkit-transition: 0.5s;
+        transition: 0.5s; }
+        .main .list-content > ul .list-item .cellPhone img {
+          position: absolute;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          margin: auto; }
+      .main .list-content > ul .list-item a {
+        color: #FFF; }
+    .main .list-content > ul .list-info {
+      color: #FFF;
+      padding-top: 22px; }
+      .main .list-content > ul .list-info .name {
+        font-size: 26px; }
+      .main .list-content > ul .list-info .phone {
+        font-size: 18px;
+        letter-spacing: 3px;
+        margin-top: 6px;
+        margin-bottom: 0px; }
+      .main .list-content > ul .list-info .address {
+        font-size: 22px; }
+
+.footer {
+  border-top: none; }
+
+/*# sourceMappingURL=m-store.css.map */

@@ -1,0 +1,67 @@
+@charset "UTF-8";
+.wrapper-content {
+  position: relative; }
+
+.main .content {
+  color: #FFF;
+  margin-bottom: 150px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 35px 30px 0; }
+  .main .content h2 {
+    font-size: 28px; }
+  .main .content p {
+    font-size: 20px; }
+  .main .content .note {
+    margin-top: 10px; }
+  .main .content .form-box {
+    margin-top: 30px; }
+    .main .content .form-box p ~ p {
+      margin-top: 10px; }
+  .main .content .form-title {
+    display: inline-block;
+    width: 100px; }
+  .main .content input, .main .content select, .main .content textarea {
+    font-size: 20px;
+    font-family: '微軟正黑體';
+    color: #DACFCB;
+    border: 1px solid #8A695A;
+    background: #3B3633; }
+  .main .content input {
+    width: 466px;
+    height: 45px;
+    padding-left: 8px;
+    margin-left: 3px; }
+  .main .content select {
+    width: 474px;
+    height: 45px;
+    padding-left: 4px;
+    color: #A9A9A9; }
+  .main .content textarea {
+    padding: 0 8px;
+    width: 456px;
+    height: 110px;
+    resize: none; }
+  .main .content .submit-btn {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 28px auto 0;
+    width: 235px;
+    height: 55px;
+    background: #8B675D;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 55px;
+    font-size: 28px;
+    letter-spacing: 5px; }
+    .main .content .submit-btn a {
+      color: #FFF; }
+
+.footer {
+  border-top: none;
+  height: 279px;
+  margin-top: -65px; }
+
+/*# sourceMappingURL=m-contact.css.map */

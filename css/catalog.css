@@ -1,0 +1,140 @@
+.main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 830px;
+  height: 100%;
+  margin: 0 auto;
+  background: url("../images/index/index-bannermask.png");
+  overflow: hidden; }
+  .main .content {
+    position: absolute;
+    width: 540px;
+    height: 415px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0; }
+    .main .content .list-box {
+      width: 540px;
+      height: 415px;
+      overflow: hidden; }
+    .main .content .list {
+      position: relative;
+      width: 540px;
+      height: 415px;
+      width: 99999px;
+      overflow: hidden;
+      font-size: 0;
+      margin-left: -40px; }
+      .main .content .list li {
+        display: inline-block;
+        width: 250px;
+        text-align: center;
+        margin-left: 40px; }
+        .main .content .list li img {
+          width: 100%; }
+        .main .content .list li a {
+          color: #FFF; }
+      .main .content .list .text {
+        margin-top: 30px;
+        font-size: 14px; }
+    .main .content .btn {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0;
+      width: 17px;
+      height: 35px; }
+    .main .content .left {
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+      opacity: 0.6;
+      left: -100px; }
+    .main .content .right {
+      right: -100px; }
+
+.nav {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  margin-right: 62px;
+  height: 170px;
+  z-index: 9999; }
+  .nav ul {
+    font-size: 0; }
+    .nav ul li {
+      position: relative; }
+      .nav ul li span {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: block;
+        transition: .3s; }
+      .nav ul li .word {
+        width: 120px;
+        height: 15px;
+        background: url("../images/all/all-menu.png"); }
+      .nav ul li .over {
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+        opacity: 0;
+        width: 120px;
+        height: 15px;
+        background: url("../images/all/all-menu.png"); }
+      .nav ul li .dot {
+        width: 10px;
+        height: 10px;
+        border: 1px solid #FFF;
+        border-radius: 50%; }
+      .nav ul li a {
+        display: block;
+        width: 120px;
+        height: 25px; }
+      .nav ul li img {
+        max-width: auto; }
+      .nav ul li.home .word {
+        background-position: 5px -5px;
+        right: 0;
+        left: auto; }
+      .nav ul li.home .over {
+        background-position: -115px -5px; }
+      .nav ul li.brand .word {
+        background-position: 5px -29px;
+        right: 0;
+        left: auto; }
+      .nav ul li.brand .over {
+        background-position: -115px -29px; }
+      .nav ul li.news .word {
+        background-position: 5px -53px; }
+      .nav ul li.news .over {
+        background-position: -115px -53px; }
+      .nav ul li.product .word {
+        background-position: 5px -75px; }
+      .nav ul li.product .over {
+        background-position: -115px -75px; }
+      .nav ul li.catalog .word {
+        background-position: 5px -99px; }
+      .nav ul li.catalog .over {
+        background-position: -115px -99px; }
+      .nav ul li.media .word {
+        background-position: 5px -123px; }
+      .nav ul li.media .over {
+        background-position: -115px -123px; }
+      .nav ul li.store .word {
+        background-position: 5px -147px; }
+      .nav ul li.store .over {
+        background-position: -115px -147px; }
+      .nav ul li:hover .word {
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+        opacity: 0; }
+      .nav ul li:hover .over {
+        filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+        opacity: 1; }
+      .nav ul li:hover .dot {
+        background: #FFF; }
+
+/*# sourceMappingURL=catalog.css.map */

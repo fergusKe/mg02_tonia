@@ -1,0 +1,224 @@
+.main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 815px;
+  height: 100%;
+  margin: 0 auto;
+  background: url("../images/index/index-bannermask.png");
+  overflow: hidden; }
+  .main .content {
+    position: absolute;
+    width: 772px;
+    height: 353px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0; }
+    .main .content .list {
+      overflow: hidden;
+      font-size: 0; }
+      .main .content .list li {
+        position: relative;
+        display: inline-block;
+        text-align: center; }
+        .main .content .list li img {
+          width: 100%; }
+        .main .content .list li a {
+          color: #FFF; }
+        .main .content .list li ~ li {
+          margin-left: 20px; }
+      .main .content .list .photo-line {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        width: 231px;
+        height: 340px;
+        border: 1px solid #FFF; }
+      .main .content .list .report .photo-line, .main .content .list .tvc .photo-line {
+        border-color: #918E7F; }
+      .main .content .list .text {
+        margin-top: 30px;
+        font-size: 14px; }
+    .main .content .item-bar {
+      float: left;
+      font-size: 0; }
+      .main .content .item-bar li ~ li {
+        margin-top: 23px; }
+      .main .content .item-bar p {
+        font-size: 12px; }
+      .main .content .item-bar a {
+        color: #FFF; }
+    .main .content .item-show {
+      float: right; }
+    .main .content .item-title {
+      color: #FFF;
+      line-height: 12px;
+      margin-bottom: 12px; }
+    .main .content.step1 {
+      display: none;
+      width: 750px; }
+    .main .content.movies {
+      height: 429px; }
+      .main .content.movies .item-bar p {
+        margin-top: 5px; }
+    .main .content.tvc {
+      height: 429px; }
+      .main .content.tvc .item-bar-box {
+        margin-top: 45px;
+        height: 335px;
+        overflow: hidden; }
+      .main .content.tvc .item-bar {
+        position: relative;
+        top: 0;
+        margin-top: -13px; }
+        .main .content.tvc .item-bar li {
+          margin-top: 13px; }
+      .main .content.tvc .item-bar-area {
+        position: relative;
+        float: left;
+        width: 118px;
+        height: 417px; }
+      .main .content.tvc .item-info {
+        margin-top: 5px; }
+      .main .content.tvc .item-bar-btn {
+        position: absolute;
+        width: 35px;
+        height: 16px;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        cursor: pointer; }
+        .main .content.tvc .item-bar-btn.up {
+          filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+          opacity: 0.6; }
+        .main .content.tvc .item-bar-btn.down {
+          top: auto;
+          bottom: 0; }
+      .main .content.tvc .item-title .name {
+        margin-left: 10px; }
+    .main .content.report {
+      height: 429px; }
+      .main .content.report .item-bar-box {
+        margin-top: 45px;
+        height: 335px;
+        overflow: hidden; }
+      .main .content.report .item-bar {
+        position: relative;
+        top: 0;
+        margin-top: -13px; }
+        .main .content.report .item-bar li {
+          margin-top: 13px; }
+      .main .content.report .item-bar-area {
+        position: relative;
+        float: left;
+        width: 118px;
+        height: 417px; }
+      .main .content.report .item-info {
+        margin-top: 5px; }
+      .main .content.report .item-bar-btn {
+        position: absolute;
+        width: 35px;
+        height: 16px;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        cursor: pointer; }
+        .main .content.report .item-bar-btn.up {
+          filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+          opacity: 0.6; }
+        .main .content.report .item-bar-btn.down {
+          top: auto;
+          bottom: 0; }
+      .main .content.report .item-title .name {
+        margin-left: 10px; }
+      .main .content.report .item-play img {
+        width: 600px; }
+
+.nav {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  margin-right: 62px;
+  height: 170px;
+  z-index: 9999; }
+  .nav ul {
+    font-size: 0; }
+    .nav ul li {
+      position: relative; }
+      .nav ul li span {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: block;
+        transition: .3s; }
+      .nav ul li .word {
+        width: 120px;
+        height: 15px;
+        background: url("../images/all/all-menu.png"); }
+      .nav ul li .over {
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+        opacity: 0;
+        width: 120px;
+        height: 15px;
+        background: url("../images/all/all-menu.png"); }
+      .nav ul li .dot {
+        width: 10px;
+        height: 10px;
+        border: 1px solid #FFF;
+        border-radius: 50%; }
+      .nav ul li a {
+        display: block;
+        width: 120px;
+        height: 25px; }
+      .nav ul li img {
+        max-width: auto; }
+      .nav ul li.home .word {
+        background-position: 5px -5px;
+        right: 0;
+        left: auto; }
+      .nav ul li.home .over {
+        background-position: -115px -5px; }
+      .nav ul li.brand .word {
+        background-position: 5px -29px;
+        right: 0;
+        left: auto; }
+      .nav ul li.brand .over {
+        background-position: -115px -29px; }
+      .nav ul li.news .word {
+        background-position: 5px -53px; }
+      .nav ul li.news .over {
+        background-position: -115px -53px; }
+      .nav ul li.product .word {
+        background-position: 5px -75px; }
+      .nav ul li.product .over {
+        background-position: -115px -75px; }
+      .nav ul li.catalog .word {
+        background-position: 5px -99px; }
+      .nav ul li.catalog .over {
+        background-position: -115px -99px; }
+      .nav ul li.media .word {
+        background-position: 5px -123px; }
+      .nav ul li.media .over {
+        background-position: -115px -123px; }
+      .nav ul li.store .word {
+        background-position: 5px -147px; }
+      .nav ul li.store .over {
+        background-position: -115px -147px; }
+      .nav ul li:hover .word {
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+        opacity: 0; }
+      .nav ul li:hover .over {
+        filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+        opacity: 1; }
+      .nav ul li:hover .dot {
+        background: #FFF; }
+
+/*# sourceMappingURL=media.css.map */

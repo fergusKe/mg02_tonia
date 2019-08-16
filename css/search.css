@@ -1,0 +1,88 @@
+::-moz-placeholder {
+  color: #DACFCB; }
+
+::-webkit-input-placeholder {
+  color: #DACFCB; }
+
+:-ms-input-placeholder {
+  color: #DACFCB; }
+
+.wrapper {
+  position: relative;
+  min-width: 1100px;
+  min-height: 700px;
+  height: 100%;
+  overflow-x: hidden; }
+
+.main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: url("../images/index/index-bannermask.png");
+  overflow: hidden; }
+
+.content {
+  position: absolute;
+  width: 500px;
+  height: 405px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  color: #FFF; }
+  .content .sreach-result {
+    font-size: 15px; }
+    .content .sreach-result span {
+      margin-left: 10px; }
+  .content .keyword {
+    color: #c8a095; }
+  .content .search-box {
+    width: 500px;
+    height: 312px;
+    margin-top: 15px;
+    overflow: hidden; }
+  .content .search-page {
+    font-size: 0;
+    text-align: center;
+    margin-top: 40px; }
+    .content .search-page .arrow {
+      width: 25px; }
+      .content .search-page .arrow.first {
+        text-align: left; }
+      .content .search-page .arrow.last {
+        text-align: right; }
+    .content .search-page li {
+      display: inline-block;
+      font-size: 12px; }
+    .content .search-page a {
+      display: block;
+      color: #FFF;
+      width: 20px;
+      text-align: center; }
+  .content .search-box-content {
+    position: relative; }
+  .content .list a {
+    color: #FFF; }
+  .content .list ~ .list {
+    margin-top: 15px; }
+  .content h3 {
+    display: inline-block;
+    padding: 1px 3px;
+    font-size: 14px;
+    border: 1px solid #9B9089;
+    color: #9B9089; }
+  .content .title {
+    display: inline-block;
+    margin-top: 7px;
+    border-bottom: 1px solid #FFF;
+    font-size: 15px; }
+  .content .text {
+    display: inline-block;
+    margin-top: 7px;
+    font-size: 12px;
+    line-height: 1.5; }
+
+/*# sourceMappingURL=search.css.map */

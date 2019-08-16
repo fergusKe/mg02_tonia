@@ -1,0 +1,134 @@
+.nav {
+  zoom: 1; }
+  .nav:before {
+    content: "";
+    display: table; }
+  .nav:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  border-bottom: 1px solid #FFF \9; }
+  .header .logo {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: auto;
+    float: left;
+    margin: 35px 0 15px 65px; }
+
+.nav {
+  position: relative;
+  display: inline-block;
+  float: right;
+  margin: 15px 63px 0;
+  height: auto; }
+  .nav ul {
+    font-size: 0; }
+    .nav ul li {
+      position: relative;
+      display: inline-block;
+      width: 105px;
+      height: 12px; }
+      .nav ul li span {
+        position: absolute;
+        top: 10px;
+        left: 0;
+        width: 105px;
+        height: 12px;
+        display: block;
+        background: url("../images/all/all-menu-index.png");
+        transition: .3s; }
+      .nav ul li .over {
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+        opacity: 0;
+        width: 105px;
+        height: 12px;
+        background: url("../images/all/all-menu-index.png");
+        transition: .3s; }
+      .nav ul li a {
+        display: block;
+        position: relative;
+        top: -10px;
+        width: 105px;
+        height: 32px; }
+      .nav ul li img {
+        max-width: auto; }
+      .nav ul li ~ li {
+        border-left: 1px solid #FFF; }
+      .nav ul li.home span {
+        background-position: 0px -13px; }
+      .nav ul li.home .over {
+        background-position: 0px -52px; }
+      .nav ul li.brand span {
+        background-position: -94px -13px; }
+      .nav ul li.brand .over {
+        background-position: -94px -52px; }
+      .nav ul li.news span {
+        background-position: -192px -13px; }
+      .nav ul li.news .over {
+        background-position: -192px -52px; }
+      .nav ul li.product span {
+        background-position: -290px -13px; }
+      .nav ul li.product .over {
+        background-position: -290px -52px; }
+      .nav ul li.catalog span {
+        background-position: -390px -13px; }
+      .nav ul li.catalog .over {
+        background-position: -390px -52px; }
+      .nav ul li.media span {
+        background-position: -486px -13px; }
+      .nav ul li.media .over {
+        background-position: -486px -52px; }
+      .nav ul li.store span {
+        background-position: -592px -13px; }
+      .nav ul li.store .over {
+        background-position: -585px -52px; }
+      .nav ul li a:hover span {
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+        opacity: 0; }
+      .nav ul li a:hover .over {
+        filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+        opacity: 1; }
+
+.main {
+  margin-top: 110px; }
+
+.slider {
+  display: none;
+  position: relative;
+  width: 640px;
+  height: 384px;
+  font-size: 0;
+  margin: 0 auto;
+  clear: both; }
+  .slider ul {
+    position: relative;
+    width: 99999px;
+    margin-left: -1280px; }
+  .slider li {
+    display: inline-block;
+    width: 640px;
+    height: 384px;
+    cursor: pointer; }
+  .slider .mask {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: url("../images/index/index-bannermask.png"); }
+    .slider .mask.right {
+      left: 100%; }
+  .slider .btn {
+    position: absolute;
+    top: 50%;
+    left: -22px;
+    cursor: pointer; }
+    .slider .btn.next {
+      right: -22px;
+      left: auto; }
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,48 @@
+.wrapper-content {
+  position: relative; }
+
+.main {
+  margin-bottom: 100px; }
+  .main .content {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 30px 25px;
+    color: #FFF; }
+    .main .content .sreach-result {
+      font-size: 28px; }
+      .main .content .sreach-result span {
+        margin-left: 10px; }
+    .main .content .keyword {
+      color: #FFC7B7; }
+    .main .content .search-box {
+      margin-top: 15px; }
+    .main .content .search-box-content {
+      position: relative; }
+    .main .content .list a {
+      color: #FFF; }
+    .main .content .list ~ .list {
+      margin-top: 15px; }
+    .main .content h3 {
+      display: inline-block;
+      padding: 1px 3px;
+      font-size: 22px;
+      border: 1px solid #BEB5B2;
+      color: #BEB5B2; }
+    .main .content .title {
+      display: inline-block;
+      margin-top: 7px;
+      border-bottom: 1px solid #FFF;
+      font-size: 24px; }
+    .main .content .text {
+      display: inline-block;
+      margin-top: 7px;
+      font-size: 20px;
+      line-height: 1.5; }
+
+.footer {
+  border-top: none;
+  height: 279px;
+  margin-top: -65px; }
+
+/*# sourceMappingURL=m-search.css.map */

@@ -1,0 +1,79 @@
+.wrapper-content {
+  position: relative; }
+
+.main {
+  position: relative;
+  overflow: hidden; }
+  .main .main-content {
+    position: relative; }
+  .main .list-content ul {
+    font-size: 0; }
+    .main .list-content ul li {
+      position: relative; }
+      .main .list-content ul li a {
+        height: 95px;
+        line-height: 95px;
+        font-size: 24px;
+        color: #584d4b;
+        font-weight: bold;
+        padding-left: 50px;
+        border-bottom: 1px solid #FFF;
+        background: #91837F;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box; }
+        .main .list-content ul li a span {
+          position: absolute;
+          right: 50px;
+          -moz-transition: 0.5s;
+          -o-transition: 0.5s;
+          -webkit-transition: 0.5s;
+          transition: 0.5s; }
+  .main .list-content .list-sub {
+    display: none; }
+    .main .list-content .list-sub a {
+      background: #AF9E97; }
+  .main .step1 {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%; }
+    .main .step1 .list-info {
+      color: #FFF;
+      padding: 0 25px;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box; }
+      .main .step1 .list-info img {
+        width: 100%; }
+    .main .step1 .info-top {
+      position: relative; }
+      .main .step1 .info-top .info-logo {
+        display: inline-block;
+        width: 200px;
+        margin: 20px 0; }
+      .main .step1 .info-top .back-btn {
+        position: absolute;
+        top: 25px;
+        right: -5px;
+        display: inline-block;
+        background: #8B675D;
+        border-radius: 5px;
+        width: 150px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        letter-spacing: 4px;
+        cursor: pointer; }
+    .main .step1 .info-title {
+      font-size: 28px; }
+    .main .step1 .info-text {
+      font-size: 20px;
+      margin-top: 20px; }
+      .main .step1 .info-text p {
+        line-height: 1.7; }
+
+.footer {
+  border-top: none; }
+
+/*# sourceMappingURL=m-product.css.map */

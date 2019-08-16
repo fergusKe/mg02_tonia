@@ -1,0 +1,102 @@
+@charset "UTF-8";
+::-moz-placeholder {
+  color: #DACFCB; }
+
+::-webkit-input-placeholder {
+  color: #DACFCB; }
+
+:-ms-input-placeholder {
+  color: #DACFCB; }
+
+.wrapper {
+  position: relative;
+  min-width: 1100px;
+  min-height: 700px;
+  height: 100%;
+  overflow-x: hidden; }
+
+.main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: url("../images/index/index-bannermask.png");
+  overflow: hidden; }
+  .main .content {
+    position: absolute;
+    width: 392px;
+    height: 425px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    color: #FFF; }
+    .main .content h2 {
+      font-size: 16px; }
+    .main .content p {
+      font-size: 14px; }
+    .main .content .note {
+      margin-top: 10px; }
+    .main .content .form-box {
+      margin-top: 20px; }
+      .main .content .form-box p ~ p {
+        margin-top: 10px; }
+    .main .content .form-title {
+      display: inline-block;
+      width: 72px; }
+    .main .content input, .main .content select, .main .content textarea {
+      font-size: 12px;
+      font-family: '微軟正黑體';
+      color: #DACFCB;
+      border: 1px solid #8A695A;
+      background: #3B3633; }
+    .main .content input {
+      width: 305px;
+      width: 303px \9;
+      height: 23px;
+      padding-left: 8px;
+      margin-left: 3px; }
+    .main .content select {
+      width: 314px;
+      width: 313px \9;
+      height: 23px;
+      padding-left: 4px; }
+    .main .content textarea {
+      padding: 0 8px;
+      width: 296px;
+      width: 296px \9;
+      height: 110px;
+      resize: none; }
+    .main .content .submit-btn {
+      float: right;
+      position: relative;
+      display: inline-block;
+      width: 102px;
+      height: 24px;
+      margin-top: 10px;
+      cursor: pointer; }
+      .main .content .submit-btn span {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 102px;
+        height: 24px;
+        display: block;
+        background: url("../images/contactus/contactus-btn-send.png");
+        transition: .3s; }
+      .main .content .submit-btn .over {
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+        opacity: 0;
+        background: url("../images/contactus/contactus-btn-send.png");
+        background-position: 0 -24px;
+        transition: .3s; }
+      .main .content .submit-btn:hover span {
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+        opacity: 0; }
+      .main .content .submit-btn:hover .over {
+        filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+        opacity: 1; }
+
+/*# sourceMappingURL=contact.css.map */

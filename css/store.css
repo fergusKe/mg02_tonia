@@ -1,0 +1,139 @@
+@charset "UTF-8";
+.wrapper {
+  position: relative;
+  min-width: 1320px;
+  min-height: 700px;
+  height: 100%;
+  overflow-x: hidden; }
+
+.main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 39%;
+  height: 100%;
+  background: url("../images/index/index-bannermask.png");
+  overflow: hidden; }
+  .main .content {
+    position: absolute;
+    width: 395px;
+    height: 422px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0; }
+    .main .content .store-title {
+      text-align: center; }
+    .main .content .text {
+      width: 430px;
+      height: 353px;
+      margin-top: 10px;
+      overflow: hidden; }
+      .main .content .text .area li {
+        display: inline-block;
+        font-size: 12px;
+        font-family: '微軟正黑體';
+        color: #FFF;
+        transition: .3s;
+        cursor: pointer;
+        font-weight: bold; }
+        .main .content .text .area li ~ li {
+          margin-top: 10px; }
+        .main .content .text .area li .name {
+          width: 85px; }
+        .main .content .text .area li .phone {
+          width: 82px; }
+        .main .content .text .area li .address {
+          width: 180px; }
+        .main .content .text .area li span {
+          display: inline-block;
+          vertical-align: top; }
+          .main .content .text .area li span ~ span {
+            margin-left: 20px; }
+        .main .content .text .area li:hover {
+          color: #E68E37; }
+        .main .content .text .area li.area-title:hover {
+          color: #FFF;
+          cursor: auto; }
+    .main .content .text-content {
+      position: relative; }
+    .main .content .btn {
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      width: 35px; }
+    .main .content .top {
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+      opacity: 0.6;
+      top: -40px; }
+    .main .content .bottom {
+      bottom: -40px; }
+
+.map-box {
+  width: 640px;
+  height: 100%;
+  margin-left: 515px;
+  position: relative; }
+
+.map {
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 520px;
+  width: 600px; }
+  .map .note {
+    color: #D9CECA;
+    font-size: 15px; }
+  .map .search {
+    font-size: 0;
+    margin: 10px 0; }
+  .map select {
+    width: 140px;
+    height: 23px;
+    font-size: 12px;
+    font-family: '微軟正黑體';
+    color: #DACFCB;
+    border: 1px solid #8A695A;
+    background: #3B3633;
+    cursor: pointer;
+    vertical-align: top; }
+    .map select ~ select {
+      margin-left: 10px; }
+  .map option {
+    cursor: pointer; }
+  .map .search-btn {
+    position: relative;
+    display: inline-block;
+    width: 84px;
+    height: 23px;
+    margin-left: 10px;
+    cursor: pointer; }
+    .map .search-btn span {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 84px;
+      height: 23px;
+      display: block;
+      background: url("../images/storelocator/storelocator-btn-search.png");
+      transition: .3s; }
+    .map .search-btn .over {
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+      opacity: 0;
+      background: url("../images/storelocator/storelocator-btn-search.png");
+      background-position: 0 -23px;
+      transition: .3s; }
+    .map .search-btn:hover span {
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+      opacity: 0; }
+    .map .search-btn:hover .over {
+      filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+      opacity: 1; }
+
+/*# sourceMappingURL=store.css.map */
